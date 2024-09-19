@@ -1,0 +1,1822 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+.header .parte3{
+    justify-content: center;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+.parte3.activar{
+    top: 153px;
+}
+
+.parte3.activar2{
+    top: 100px;
+}
+
+.header .parte3 .divi{
+    text-align: center;
+    margin-top: 25px;
+    
+}
+
+.header .parte3 a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.header{
+    background: #56638b;
+}
+.header-informacion{
+    width: 100%;
+    height: 38px;
+    background: #56638b;
+}
+
+.header-informacion .content{
+    height: 38px;
+    background: #56638b;
+    margin-left: 165px;
+    margin-right: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.header-informacion .content .parte1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-informacion .content .parte1 i{
+    color: #fff;
+    font-size: 18px;
+}
+
+.header-informacion .content .parte1 span{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+.header-informacion .content .parte1 div{
+    margin-right: 35px;
+}
+
+.header-informacion .content .parte2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.header-informacion .content .parte2 a{
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    color: #56638b;
+    font-size: 14px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-informacion .content .parte2 a:hover{
+    color: #ed2881;
+}
+
+.header-menu{
+    width: 100%;
+    height: 115px;
+    background: #fff;
+    transition: all 0.4s ease-in-out;
+    z-index: 2;
+}
+nav.sticky{
+    height: 100px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 4px 2px -2px gray;
+}
+.header-menu .content{
+    height: 100%;
+    background: #fff;
+    margin-left: 165px;
+    margin-right: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu .content .parte1{
+    display: flex;
+    align-items: center;
+}
+
+
+.header-menu .content .parte1 .img1{
+    width: 250px;
+    margin-left: 8px;
+}
+
+.header-menu .content .parte2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 71%;
+
+}
+
+.header-menu .content .parte2 a{
+    text-decoration: none;
+    color: #3f3f3f;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-menu .content .parte2 a:hover{
+    color: rgb(86, 99, 139);
+}
+main .banner{
+    overflow: hidden;
+}
+
+
+main .banner ul li img{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+    object-fit: fill;
+}
+
+
+
+.banner .content{
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+
+
+.bar-btn{
+    transition: all 300ms ease-in-out;
+}
+
+#check, .bar-btn{
+    display: none;
+}
+
+
+.banner .content .textos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #3a3a3a 25px;
+    color: #fff;
+    text-shadow: 2px 2px 3px #ed2881;
+    position: absolute;
+    top: 200px;
+    width: 78%;
+}
+
+.banner .content .textos .textos2 .normal{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 300;
+    text-shadow: 2px 2px 3px #ed2881;
+}
+
+.banner .content .textos .textos2 .grande{
+    font-size: 65px;
+    text-align: center;
+    font-weight: 800; 
+}
+
+/*@keyframes move {
+    0% {
+      text-shadow:
+        4px -4px 0 #56638b, 
+        3px -3px 0 #56638b, 
+        2px -2px 0 #56638b, 
+        1px -1px 0 #56638b,
+        -4px 4px 0 #ed2881, 
+        -3px 3px 0 #ed2881, 
+        -2px 2px 0 #ed2881, 
+        -1px 1px 0 #ed2881
+      ;
+    }
+    25% {    
+      text-shadow:      
+        -4px -4px 0 #ed2881, 
+        -3px -3px 0 #ed2881, 
+        -2px -2px 0 #ed2881, 
+        -1px -1px 0 #ed2881,
+        4px 4px 0 #56638b, 
+        3px 3px 0 #56638b, 
+        2px 2px 0 #56638b, 
+        1px 1px 0 #56638b      
+      ;
+    }
+    50% {
+      text-shadow:
+        -4px 4px 0 #56638b, 
+        -3px 3px 0 #56638b, 
+        -2px 2px 0 #56638b, 
+        -1px 1px 0 #56638b,
+        4px -4px 0 #ed2881, 
+        3px -3px 0 #ed2881, 
+        2px -2px 0 #ed2881, 
+        1px -1px 0 #ed2881
+      ;
+    }
+    75% {
+      text-shadow:
+        4px 4px 0 #ed2881, 
+        3px 3px 0 #ed2881, 
+        2px 2px 0 #ed2881, 
+        1px 1px 0 #ed2881,
+        -4px -4px 0 #56638b, 
+        -3px -3px 0 #56638b, 
+        -2px -2px 0 #56638b, 
+        -1px -1px 0 #56638b     
+      ;
+    }
+    100% {
+      text-shadow:
+        4px -4px 0 #56638b, 
+        3px -3px 0 #56638b, 
+        2px -2px 0 #56638b, 
+        1px -1px 0 #56638b,
+        -4px 4px 0 #ed2881, 
+        -3px 3px 0 #ed2881, 
+        -2px 2px 0 #ed2881, 
+        -1px 1px 0 #ed2881
+      ;
+    }  
+  }*/
+.banner .content .textos .textos2 .peque{
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+main .banner ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    max-height: 600px;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+main .banner ul li{
+    width: 100%;
+    position: relative;
+    
+}
+
+main .banner ul li .ima{
+    background-color: rgba(1, 32, 126, 0.6);
+    position: relative;
+}
+
+@keyframes slide{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+/*ABOUT US*/
+
+.about-us{
+    width: 100%;
+    height: auto;
+    background: #F6F7F9;
+}
+
+.about-us .content{
+    background: #F6F7F9;
+    margin-left: 165px;
+    margin-right: 165px;
+    padding-top: 80px;
+    
+}
+
+.about-us .content .partes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-us .content .parte1{
+    width: 50%;
+    padding-right: 25px;
+}
+
+
+
+.about-us .content .parte2{
+    background: url('./img/800-Doctors-Talking-GettyImages-1421919753.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.about-us .content .parte1 h1{
+    font-size: 50px;
+    color: #3a3a3a;
+}
+
+.about-us .content .parte1 p{
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 30px;
+    color: #4e4e4e;
+}
+.about-us .content .parte1 .moradito{
+    color: #56638b;
+    font-size: 50px;
+}
+.about-us .content .parte1 span{
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 30px;
+    color: #4e4e4e;
+}
+
+.about-us .content .parte1 span i{
+    color: #ed2881;
+    font-weight: 800;
+    margin-right: 15px;
+    font-size: 22px;
+}
+
+.about-us .content .parte1 .check{
+    margin-top: 30px;
+}
+
+.about-us .content .parte2 .liston{
+    background: #56638b;
+    height: 100px;
+    width: 70%;
+    margin-top: 300px;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 3px 0#ed2881;
+}
+
+.about-us .content .parte2 .liston .imga{
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.about-us .content .parte2 .liston .imga img{
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.about-us .content .parte2 .liston span{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 55px;
+    
+}
+
+.about-us .content .parte2 .liston .n24{
+    color: #ed2881;
+    margin-left: 0px;
+    text-shadow: 1px 0 10px#ed2881;
+}
+
+.about-us .content .parte2{
+    width: 45%;
+    padding-right: 25px;
+}
+
+.especialidades{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.especialidades .content{
+    background: #fff;
+    margin-left: 165px;
+    margin-right: 165px;
+    padding-top: 80px;
+}
+
+.especialidades .content .partes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.especialidades .content .titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.especialidades .content .titulo h1{
+    color: #3a3a3a;
+    cursor:pointer;
+}
+.especialidades .content .titulo h1:hover{
+    color:#56638b;
+}
+.especialidades .content .titulo .linea{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.especialidades .content .titulo .linea2{
+    
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.especialidades .content .titulo .linea2 .li{
+    border: 1px solid #56638b;
+    background-color: #56638b;
+    width: 100px;
+    margin-top: 10px;
+    height: 2px;
+    border-radius: 8px;
+}
+
+.especialidades .content .titulo .linea .li{
+    border: 1px solid #ed2881;
+    background-color: #ed2881;
+    width: 100px;
+    margin-top: 10px;
+    height: 2px;
+    border-radius: 8px;
+}
+.especialidades .content .partes .parte1{
+    width: 80%;
+}
+.especialidades .content .partes .parte1 .prim{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.especialidades .content .parte1 .prim .caja{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    background-color: #F6F7F5;
+    margin-top: 15px;
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1),5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.especialidades .content .parte1 .prim .caja:hover {
+    background: #56638b;
+    color: #fff;
+}
+
+.especialidades .content .parte1 .prim .caja:hover ~ .center{
+    color: #fff;
+}
+.especialidades .content .parte1 .prim .caja .contenido,
+.especialidades .content .parte1 .segu .caja .contenido{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.especialidades .content .parte1 .prim .caja .center,
+.especialidades .content .parte1 .segu .caja .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.especialidades .content .parte1 .prim .caja .icono,
+.especialidades .content .parte1 .segu .caja .icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    border-radius: 50%;
+    border: 25px solid #F6F7F5;
+    transition: all 0.4s ease;
+}
+
+.especialidades .content .parte1 .prim .caja .icono .centro,
+.especialidades .content .parte1 .segu .caja .icono .centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: #9b9b9b;
+    font-weight: 300;
+}
+.especialidades .content .parte1 .prim .caja .icono .centro i{
+    font-weight: 300;
+}
+.especialidades .content .parte1 .prim .caja .center span{
+    font-weight: 700;
+    margin-top: -15px;
+    font-size: 12px;
+    color: #3a3a3a;
+}
+
+.especialidades .content .partes .parte2{
+    width: 15%;
+    height: auto;
+    padding-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;border: 1px solid;
+}
+
+.especialidades .content .parte2 .titulo{
+    margin-top: 15px;
+    color: #3a3a3a;
+    font-size: 14px;
+    justify-content: start;
+    display: block;
+}
+
+.especialidades .content .parte2 .titulo h4{
+    font-size: 25px;
+    text-align: left;
+}
+
+.especialidades .content .parte2 .titulo h4::after {
+    content: "|";
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes parpadeo {
+    0% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+@keyframes mover-derecha-izquierda{
+    from{
+        transform: translateX(100px);
+    }to{
+        transform: translateX(10px);
+    }
+}
+
+.especialidades .content .parte2 .texto p{
+    color: #4e4e4e;
+    font-size: 19px;
+    line-height: 30px;
+    text-shadow: 95px 15px 15px 95px #3a3a3a;
+}
+
+.funciona{
+    width: 100%;
+    height: auto;
+    background: rgb(246, 247, 245);
+    margin-top: 50px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)
+      ),url('./img/Becoming-a-medical-doctor-or-physician-in-Germany.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      color: rgb(86, 99, 139);
+    
+}
+
+.funciona .content{
+    margin-left: 165px;
+    margin-right: 165px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    
+}
+
+.funciona .content .partes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.funciona .content .partes .parte1{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.funciona .content .partes .parte1 iframe{
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 1),7px 7px 7px rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+}
+
+.funciona .content .partes .parte2{
+    width: 50%;
+    padding: 10px;
+}
+
+.funciona .content .partes .parte2 h1{
+    color: #3a3a3a;
+    padding-left: 15px;
+}
+.negrita{
+    font-weight: 800;
+}
+.funciona .content .partes .parte2 .Pasos{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+.funciona .content .partes .parte2 .Pasos .numero{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin-left: 15px;
+}
+.funciona .content .partes .parte2 .Pasos .numerito{
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3),5px 5px 5px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    font-weight: 800;
+    color: #56638b;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.funciona .content .partes .parte2 .Pasos .numerito:hover{
+    background:#56638b;
+    color: #fff;
+    border-radius: 50%;box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3),5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.funciona .content .partes .parte2 .Pasos .explicacion{
+    width: 100%;
+    color: #fff;
+    line-height: 25px;
+}
+
+.funciona .content .partes .parte2 .Pasos .explicacion span{
+    line-height: 22px;
+}
+
+.funciona .content .titulo .linea{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.funciona .content .titulo .linea .li{
+    border: 1px solid #ed2881;
+    background-color: #ed2881;
+    width: 100px;
+    margin-top: 10px;
+    height: 2px;
+    border-radius: 8px;
+}
+
+.funciona .content .titulo h1{
+    color: #fff;
+    cursor:pointer;
+}
+.funciona .content .titulo h1:hover{
+    color:#56638b;
+}
+
+.funciona .content .titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.honorarios{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.honorarios .content{
+    background: #fff;
+    margin-left: 165px;
+    margin-right: 165px;
+    padding-top: 80px;
+}
+
+.honorarios .content .titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.honorarios .content .titulo h1{
+    color: #3a3a3a;
+    cursor:pointer;
+}
+.honorarios .content .titulo h1:hover{
+    color:#56638b;
+}
+.honorarios .content .titulo .linea{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.honorarios .content .titulo .linea .li{
+    border: 1px solid #ed2881;
+    background-color: #ed2881;
+    width: 100px;
+    margin-top: 10px;
+    height: 2px;
+    border-radius: 8px;
+}
+
+.honorarios .content .tabla-contenido .tabla{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 4px 4px 3px #3a3a3a;
+    margin-bottom: 10px;
+}
+
+.honorarios .content .tabla-contenido .tabla thead th{
+    padding: 35px;
+    color: #fff;
+    text-shadow: 2px 2px #3a3a3a;
+    font-size: 20px;
+}
+
+.honorarios .content .tabla-contenido .tabla tbody td{
+    padding: 15px;
+}
+
+.color0{
+    background: #56638b;
+}
+.color1{
+    background: #616E9D;
+    
+}
+
+.color2{
+    background: #7882A7;
+    width: 5%;
+}
+
+.color3{
+    background: #939BBC;
+    width: 17%;
+}
+
+.color4{
+    background: #dadada;
+}
+
+.color5{
+    background: #434e6d;
+}
+
+.precio{
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+}
+
+.honorarios .content .flecha{
+    display: none;
+    justify-content: center;
+    padding-top: 15px;
+    animation: slide3 1s infinite alternate ease-in-out;
+}
+.honorarios .content .flecha .flechita i{
+    rotate: 180deg;
+    font-size: 35px;
+    color: #56638b;
+}
+@keyframes slide3{
+    0%{margin-left: 25%;}
+    100%{margin-left: -25%;}
+}
+@keyframes slide2{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -33.3%;}
+    45%{margin-left: -33.3%;}
+
+    50%{margin-left: -66.6%;}
+    70%{margin-left: -66.6%;}
+
+    75%{margin-left: -100%;}
+    100%{margin-left: -100%;}
+}
+
+.especialistas{
+    width: 100%;
+    height: auto;
+    background: #F6F7F9;
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+
+.especialistas .content{
+    background: #F6F7F9;
+    margin-left: 165px;
+    margin-right: 165px;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+.especialistas .content .titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.especialistas .content .titulo h1{
+    color: #3a3a3a;
+    cursor:pointer;
+}
+.especialistas .content .titulo h1:hover{
+    color:#56638b;
+}
+.especialistas .content .titulo .linea{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.especialistas .content .titulo .linea .li{
+    border: 1px solid #ed2881;
+    background-color: #ed2881;
+    width: 100px;
+    margin-top: 10px;
+    height: 2px;
+    border-radius: 8px;
+}
+
+.especialistas .content .card-especialistas{
+    display: flex;
+    justify-content: space-between;
+    width: 200%;
+    animation: slide2 20s infinite alternate ease-in-out;
+}
+
+.especialistas .content .card-especialistas .card{
+    width: 370px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px #3a3a3a;
+    margin-bottom: 35px;flex-wrap: wrap;
+}
+
+.especialistas .content .card-especialistas .card .imagen{
+    width: 100%;
+    height: 350px;
+}
+
+.especialistas .content .card-especialistas .card .imagen1{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0.8)
+      ), url('./img/doctor1.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.especialistas .content .card-especialistas .card .imagen2{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0.8)
+      ),url('./img/doctor2.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.especialistas .content .card-especialistas .card .imagen3{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0.8)
+      ),url('./img/doctor4.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.especialistas .content .card-especialistas .card .imagen4{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0.8)
+      ), url('./img/doctor3.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.especialistas .content .card-especialistas .card .imagen5{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0.8)
+      ),url('./img/doctor5.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.especialistas .content .card-especialistas .card .imagen6{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0.8)
+      ),url('./img/doctor6.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.especialistas .content .card-especialistas .card .contenido{
+    padding: 25px;
+    text-align: center;
+    color: #363636;
+}
+
+.especialistas .content .card-especialistas .card .contenido .nombre h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+.especialistas .content .card-especialistas .card .contenido .espe{
+    margin-top: 15px;
+}
+.especialistas .content .card-especialistas .card .contenido .espe span{
+    color: #434e6d;
+}
+
+.especialistas .content .card-especialistas .card .contenido .horarios{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.especialistas .content .card-especialistas .card .contenido .horarios .parte1,
+.especialistas .content .card-especialistas .card .contenido .horarios .parte2{
+    width: 100%;
+    display: block;
+}
+
+.especialistas .content .card-especialistas .card .contenido .horarios .parte1 .dias{
+    width: 100%;
+    text-align: left;
+    padding-bottom: 15px;
+    color: #616161;
+}
+
+.especialistas .content .card-especialistas .card .contenido .horarios .parte2 .horas{
+    width: 100%;
+    text-align: right;
+    padding-bottom: 15px;
+    color: #2b2b2b;
+}
+
+.especialistas .content .card-especialistas .card .boton{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.especialistas .content .card-especialistas .card .boton button{
+    background: #434e6d;
+    color: #fff;
+    width: 75%;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.especialistas .content .card-especialistas .card .boton button:hover{
+    background: #30384e;
+}
+.especialistas .content .ver-todos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.especialistas .content .ver-todos button{
+    background: #30384e;
+    color: #fff;
+    width: 300px;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.especialistas .content .ver-todos button:hover{
+    background: #4b5779;
+}
+
+.especialistas .content .ver-todos button i{
+    rotate: 180deg;
+}
+
+.centro-form{
+    display: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;left: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.centro-form .formulario{
+    max-width: 750px;
+    height: 560px;
+    background: #fff;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    margin: 25px;
+    z-index: 1;
+}
+
+
+
+.centro-form .formulario .content .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.centro-form .formulario .content .top .titulo h1{
+    color: #363636;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.centro-form .formulario .content .top .cerrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d1d1d1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #fff;
+    margin-top: -20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-left: 15px;
+}
+
+.centro-form .formulario .content .top .cerrar:hover{
+    background: #56638b;
+}
+
+.centro-form .formulario .content .form{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.form form .contenido .Cuadrito{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form form .contenido .Cuadrito .cuadrito{
+    width: 55px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #939BBC;
+    border-left: 1px solid #939BBC;
+    border-bottom: 1px solid #939BBC;
+    color: #939BBC;
+    font-size: 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.form form .contenido .Cuadrito input{
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 15px;
+    border-top: 1px solid #939BBC;
+    border-right: 1px solid #939BBC;
+    border-bottom: 1px solid #939BBC;
+    border-left: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 0px 5px 5px 0px;
+    color: #616161;
+}
+
+.form form .contenido .Cuadrito select{
+    width: 100%;
+    border-top: 1px solid #939BBC;
+    border-right: 1px solid #939BBC;
+    border-bottom: 1px solid #939BBC;
+    border-left: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 0px 5px 5px 0px;
+    color: #616161;
+}
+
+.form form .contenido .divisor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form form .contenido .divisor .Cuadrito{
+    width: 48%;
+}
+.form form .contenido .divisor .Cuadrito input{
+    width: 60%;
+}
+
+.form form .contenido .divisor .Cuadrito select{
+    width: 70%;
+}
+
+.form form .contenido .boton input{
+    background: #56638b;
+    border: none;
+    width: 80%;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form form .contenido .boton input:hover{
+    background: #30384e;
+}
+.disabled{
+    pointer-events: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webkit-calendar-picker-indicator{
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 2px;
+    opacity: 1;
+    filter: invert(0.5);
+    color: #939BBC;
+}
+
+.contact-us{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.1), 
+        rgba(0, 0, 0, 0.1)
+      ),url('./img/punteado-simple-mapa-del-mundo-politico-plantilla-con-puntos-gris-aislado-sobre-fondo-blanco-t2mm0m.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      
+}
+
+.contact-us .content{
+    margin-left: 165px;
+    margin-right: 165px;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+.contact-us .content .partes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact-us .content .partes .parte1{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .content .partes .parte1 img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -10px;
+}
+
+
+.contact-us .content .partes .parte2{
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+.contact-us .content .partes .parte2 .titulo,
+.contact-us .content .partes .parte2 .texto{
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    margin-top: 26px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.contact-us .content .partes .parte2 .texto p{
+    text-align: start;
+    color: #616161;
+    font-size: 17px;
+}
+.contact-us .content .partes .parte2 .titulo h3{
+    color: #56638b;
+    text-align: start;
+    font-size: 25px;
+}
+.negrita{
+    font-weight: 800;
+}
+
+.contact-us .content .titulo .linea{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us .content .titulo .linea .li{
+    border: 1px solid #ed2881;
+    background-color: #ed2881;
+    width: 100px;
+    margin-top: 10px;
+    height: 2px;
+    border-radius: 8px;
+}
+
+.contact-us .content .titulo h1{
+    color: #363636;
+    cursor:pointer;
+}
+.contact-us .content .titulo h1:hover{
+    color:#56638b;
+}
+
+.contact-us .content .titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.contact-us .content .partes .parte2 .form{
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.contact-us .content .partes .parte2 .form form{
+   display: block;
+}
+
+.contact-us .content .partes .parte2 .form form .text{
+    margin-bottom: 15px;
+}
+
+.contact-us .content .partes .parte2 .form form .text input,
+.contact-us .content .partes .parte2 .form form .text textarea{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 95%;
+    border: 1px solid #939BBC;
+    border-radius: 3px;
+    font-size: 15px;outline: none;
+    color: #2b2b2b;
+}
+
+.contact-us .content .partes .parte2 .form form .divisor{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+.contact-us .content .partes .parte2 .form form .divisor .text{
+    width: 45%;
+}
+
+.contact-us .content .partes .parte2 .form form .divisor .text input{
+    width: 100%;
+}
+.contact-us .content .partes .parte2 .form form .text textarea{
+    height: 130px;
+}
+
+.contact-us .content .partes .parte2 .form form .boton{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.contact-us .content .partes .parte2 .form form .boton input{
+    background: #56638b;
+    border: none;
+    width: 150px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-us .content .partes .parte2 .form form .boton input:hover{
+    background: #3a435e;box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3),5px 5px 5px rgba(0, 0, 0, 0.);
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    background:#56638b;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      
+}
+
+footer .content{
+    margin-left: 165px;
+    margin-right: 165px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+footer .content .partes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+footer .content .partes .parte1,
+footer .content .partes .parte2,
+footer .content .partes .parte3{
+    padding-bottom: 35px;
+}
+footer .content .partes .parte1 .img{
+    margin-bottom: 15px;
+}
+footer .content .partes .parte1 .img img{
+    width: 300px;
+}
+
+footer .content .partes .parte1 .texto{
+    max-width: 360px;
+    color: #fff;
+    line-height: 23px;
+}
+
+footer .content .partes .parte2 .titulo,
+footer .content .partes .parte3 .titulo{
+    margin-bottom: 25px;
+}
+
+footer .content .partes .parte2 .titulo h3,
+footer .content .partes .parte3 .titulo h3{
+    color: #fff;
+    font-size: 25px;
+}
+
+footer .content .partes .parte2 ul li{
+    list-style: none;
+    padding-bottom: 15px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
+footer .content .partes .parte2 ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+footer .content .partes .parte3 .telefono,
+footer .content .partes .parte3 .correo{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+
+footer .content .partes .parte3 .telefono i,
+footer .content .partes .parte3 .correo i{
+    font-weight: 500;
+    font-size: 22px;
+    margin-right: 7px;
+}
+
+footer .content .partes .parte1 .redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer .content .partes .parte1 .redes a{
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    color: #56638b;
+    font-size: 14px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+footer .content .partes .parte1 .redes a:hover{
+    color: #ed2881;
+}
+
+footer .content .copyright{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer .content .copyright .parte1 span,
+footer .content .copyright .parte2 span{
+    color: #fff;
+}
+
+@media screen and (max-width: 1344px){
+    .about-us .content .partes,
+    .funciona .content .partes,
+    .contact-us .content .partes
+    .especialidades .content .partes{
+        justify-content: center;
+    }
+
+    .header-informacion .content,
+    footer .content,.header-menu .content,
+    .especialidades .content,
+    .about-us .content,.funciona .content,
+    .contact-us .content,.especialistas .content,
+    .honorarios .content,.banner .content{
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
+    .about-us .content .parte1,
+    .about-us .content .parte2,
+    .funciona .content .partes .parte1,
+    .funciona .content .partes .parte2,
+    .contact-us .content .partes .parte1,
+    .contact-us .content .partes .parte2,
+    .especialidades .content .partes .parte1,
+    .especialidades .content .partes .parte2{
+        width: 90%;
+    }
+    .especialistas .content .card-especialistas{
+        width: 300%;
+    }
+    @keyframes slide2{
+        0%{margin-left: 0;}
+        15%{margin-left: 0;}
+    
+        20%{margin-left: -50%;}
+        35%{margin-left: -50%;}
+    
+        40%{margin-left: -100%;}
+        55%{margin-left: -100%;}
+
+        60%{margin-left: -150%;}
+        75%{margin-left: -150%;}
+    
+        80%{margin-left: -200%;}
+        100%{margin-left: -200%;}
+    }
+}
+
+@media screen and (max-width: 1019px){
+    .header-informacion .content,
+    footer .content,.header-menu .content,
+    .especialidades .content,.especialistas .content,
+    .about-us .content,.funciona .content,
+    .contact-us .content,
+    .honorarios .content,.banner .content{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .honorarios .content .tabla-contenido{
+        overflow-x:auto;
+    }
+
+    .banner .content .textos{
+        top: 100px;
+    }
+    .bar-btn{
+        display: block;
+        font-size: 40px;
+        color: #56638b;
+        cursor: pointer;
+        margin-top: 15px;
+        float: right;
+    }
+    .header-menu .content{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header-menu .content .col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-menu .content .col label{
+        margin-top: -5px;
+    }
+
+    .header-menu .content .parte2 {
+        display: none;
+    }
+
+
+    #check:checked ~ #Parte3{
+        display: flex;
+    }
+
+    .especialistas .content .card-especialistas{
+        width: 600%;
+    }
+    @keyframes slide2{
+        0%{margin-left: 0;}
+        10%{margin-left: 0;}
+    
+        20%{margin-left: -100%;}
+        30%{margin-left: -100%;}
+    
+        40%{margin-left: -200%;}
+        50%{margin-left: -200%;}
+
+        60%{margin-left: -300%;}
+        70%{margin-left: -300%;}
+    
+        80%{margin-left: -400%;}
+        90%{margin-left: -400%;}
+
+        95%{margin-left: -500%;}
+        100%{margin-left: -500%;}
+    }
+    
+    
+}
+@media screen and (max-width: 884px){
+.honorarios .content .flecha{
+    display: flex;
+    margin-bottom: -25px;
+}
+}
+
+@media screen and (max-width: 768px){
+    .header-informacion .content,
+    footer .content,.header-menu .content,
+    .especialidades .content,.especialistas .content,
+    .about-us .content,.funciona .content,
+    .contact-us .content,
+    .honorarios .content,.banner .content{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .contact-us .content .partes .parte2 .form form .divisor{
+        display: block;
+    }
+
+    .contact-us .content .partes .parte2 .form form .divisor .text{
+        width: 100%;
+    }
+
+    .about-us .content .parte1,
+    .about-us .content .parte2,
+    .funciona .content .partes .parte1,
+    .funciona .content .partes .parte2,
+    .contact-us .content .partes .parte1,
+    .contact-us .content .partes .parte2,
+    .especialidades .content .partes .parte1,
+    .especialidades .content .partes .parte2{
+        width: 98%;
+    }
+
+    .banner .content .textos .textos2 .normal{
+        font-size: 25px;
+    }
+    
+    .banner .content .textos .textos2 .grande{
+        font-size: 35px;
+    }
+
+    .banner .content .textos .textos2 .peque{
+        font-size: 15px;
+    }
+
+    .contact-us .content .partes .parte2 .titulo,
+    .contact-us .content .partes .parte2 .texto{
+        margin-left: 0;
+        margin-right: 0px;
+    }
+
+    .contact-us .content .partes .parte2 .form{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+
+    .about-us .content .parte2 .liston{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .header-informacion .content,
+    footer .content,.header-menu .content,
+    .especialidades .content,.especialistas .content,
+    .about-us .content,.funciona .content,
+    .contact-us .content,
+    .honorarios .content,.banner .content{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .header-informacion .content .parte2{
+        display: none;
+    }
+    .header-informacion .content .parte1{
+        width: 100%;
+    }
+
+    .especialidades .content .partes .parte1 .prim{
+        display: flex;
+        justify-content: center;
+    }
+    .banner ul li .content .textos{
+        width: 87%;
+    }
+
+    .banner ul li .content .textos .textos2{
+        margin-left: 15px;
+        margin-right: 15px;
+        
+        width: 100%;
+    }
+
+    .banner .content .textos .textos2 .normal{
+        font-size: 15px;
+    }
+    
+    .banner .content .textos .textos2 .grande{
+        font-size: 25px;
+    }
+
+    .banner .content .textos .textos2 .peque{
+        font-size: 10px;
+    }
+
+    .banner .content .textos{
+        top: 100px;
+    }
+
+    .centro-form .formulario{
+        height: 500px;
+        overflow-y: auto;
+        margin-top: 55px;
+    }
+
+    .centro-form .formulario .content .top .titulo h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 379px){
+    .header-informacion .content,
+    footer .content,.header-menu .content,
+    .especialidades .content,.especialistas .content,
+    .about-us .content,.funciona .content,
+    .contact-us .content,
+    .honorarios .content,.banner ul li .content .textos .textos2{
+        margin-left: 15px;
+        margin-right: 15px;
+        
+    }
+    .banner .content .textos{
+        top: 50px;
+    }
+}
